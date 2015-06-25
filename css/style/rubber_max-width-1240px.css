@@ -1,0 +1,183 @@
+@media screen and (max-width: 1240px) {
+
+    .preheader{
+        border-bottom: 1px solid #dedede;
+    }
+
+    .section{
+        padding: 0;
+    }
+
+    .header-container{
+        margin-top: 0;
+        background-color: #eaeaea;
+    }
+
+    .header-sub-menu{
+        padding: 0;
+    }
+
+    .background-slider-button-margin{
+        margin-left: 87%;
+    }
+
+    .inform-phone{
+        display: none;
+    }
+
+    .container-search{
+        width: 50%;
+    }
+
+    .header-container input[name="input-shopping-kart"]{
+        display: none;
+    }
+
+    .authorization{
+        float: none;
+    }
+
+    .authorization ul li{
+        float: left;
+    }
+
+    .authorization ul li{
+        margin-right: 10px;
+    }
+
+    .tip {
+        display: inline-block;
+        position: relative;
+    }
+
+    /*Стиль для блока подсказки*/
+    .answer{
+        display:none; /*скрываем*/
+        position:absolute; /*позиционируем абсолютно*/
+        z-index:9999; /*отображаем поверх всех элементов на странице*/
+        background: #eaeaea; /*цвет фона*/
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        font: normal 500 14px Trebuchet MS;
+        text-align: left;
+        width: 155px; /*ширина !значение*/
+        min-height: 50px; /*минимальная высота (если текста мало)*/
+        max-height: auto; /*высота в зависимости от количества текста*/
+        white-space: normal; /*переносы слов*/
+        -webkit-box-shadow: 5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень справа*/
+        box-shadow: 5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень справа*/
+        right: -170px; /*!смещение = ширина + отступы*/
+        bottom: -16px;
+        padding: 5px 10px 7px 7px; /*отступы внутри*/
+    }
+
+    .answer-position{
+        right: 50px; /*!смещение = ширина + отступы*/
+        -webkit-box-shadow: -5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень слева*/
+        box-shadow: -5px 5px 0.5em -0.1em rgba(0,0,6,0.5); /*тень слева*/
+    }
+
+
+    /*Стили для уголка*/
+    .answer:before{
+        content:"";
+        position:absolute;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAQAAACR313BAAAAaElEQVR4XoWQMQ6AMAwDna6wMXTjB/x/7E4i9SV9AwgxuJKDcKfqrlVizInrObwLHLng9sKhgm8nIQV4eWAFJig/EIogUATCTPh7zZUUuqHXOL4m7waglViyvVthNXvaGhNr2jnTLQTenE8VKUp0n4sAAAAASUVORK5CYII=) no-repeat;
+        width: 9px;
+        height: 15px;
+        left: -9px;
+        margin-top: 10px;
+        background-position: 0 0;
+    }
+
+    .answer-position:before{
+        left: 153px;
+        transform: rotate(180deg);
+    }
+
+    /*Для отображения подсказки */
+    .tip>a:hover~span.answer,
+    .tip>a:focus~span.answer{
+        display:block;
+    }
+
+    .background-cover, .m-scooch{
+        height: 590px ;
+    }
+
+    .m-scooch-pagination{
+        top: 525px;
+    }
+
+    .m-scooch-controls a.lg{
+        top: 370px;
+    }
+
+
+    .container-main-slider .container-title-slider li, .container-main-slider .container-title-slider-2 li{
+        margin-right: 5px;
+    }
+
+
+    .sub-menu-form{
+        top: 39px;
+        min-height: 300px;
+    }
+
+    .header-sub-menu > .nav-child-10{
+        display: none;
+    }
+
+
+
+    .header-sub-menu .nav-suitcases .sub-menu-form:after{
+        left: 6%;
+    }/*Положение стрелки(треугольника), у выпадающего меню */
+
+    .header-sub-menu .nav-handbags .sub-menu-form:after{
+        left: 15%;
+    }
+
+    .header-sub-menu .nav-backpacks .sub-menu-form:after{
+        left: 23.9%;
+    }
+
+    .header-sub-menu .nav-accessories .sub-menu-form:after{
+        left: 35.6%;
+    }
+
+    .header-sub-menu .nav-business .sub-menu-form:after{
+        left: 50%;
+    }
+
+    .header-sub-menu .nav-children .sub-menu-form:after{
+        left: 62.7%;
+    }
+
+    .header-sub-menu .nav-brands .sub-menu-form:after{
+        left: 72.7%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

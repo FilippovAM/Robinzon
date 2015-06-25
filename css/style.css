@@ -1,0 +1,83 @@
+@import "bootstrap/css/bootstrap.min.css";
+@import "style/bootstrap-style.css";
+
+@import "ion.rangeSlider/normalize.css";
+@import "ion.rangeSlider/ion.rangeSlider.css";
+@import "ion.rangeSlider/ion.rangeSlider.skinHTML5.css";
+
+@import "scooch/scooch.css";
+@import "scooch/scooch-style.css";
+
+@import "style/core.css";
+@import "style/header.css";
+@import "style/main.css";
+@import "style/footer.css";
+@import "style/rubber_min-width-991px.css";
+@import "style/rubber_max-width-1240px.css";
+@import "style/rubber-max-width-1150px.css";
+@import "style/rubber-max-width-1050px.css";
+@import "style/rubber_max-width-1000px.css";
+@import "style/rubber-max-width-992px.css";
+@import "style/rubber-max-width-852px.css";
+@import "style/rubber-max-width-735px.css";
+@import "style/rubber-max-width-690px.css";
+@import "style/rubber_max-width-630px.css";
+@import "style/rubber-max-width-556.css";
+@import "style/rubber-max-width-410.css";
+
+
+
+
+input{
+  border: 1px solid #c6c6c6;
+}
+
+.nav > li {
+  float: left;
+/*  margin-left: 30px; */
+  font-size: 13px;
+}
+
+.nav > li:first-child {
+  margin-left: 0;
+}
+
+.nav-icon {
+  margin-top: -1px;
+}
+
+input[type="button"]:active{
+  background-color: #ff5103;
+}
+
+input[type="number"]{
+  -moz-appearance:textfield;
+}
+
+/* плавное изменение прозрачности  placeholder-а при фокусе, */
+.input-change-opacity::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+.input-change-opacity::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+.input-change-opacity:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+.input-change-opacity:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+.input-change-opacity:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.input-change-opacity:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.input-change-opacity:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.input-change-opacity:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+/* сдвиг placeholder-а вниз при фокусе*/
+.input-shift-placeholder::-webkit-input-placeholder       {line-height: 20px;  transition: line-height 0.5s ease;}
+.input-shift-placeholder::-moz-placeholder                {line-height: 20px;  transition: line-height 0.5s ease;}
+.input-shift-placeholder:-moz-placeholder                 {line-height: 20px;  transition: line-height 0.5s ease;}
+.input-shift-placeholder:-ms-input-placeholder            {line-height: 20px;  transition: line-height 0.5s ease;}
+.input-shift-placeholder:focus::-webkit-input-placeholder {line-height: 100px; transition: line-height 0.5s ease;}
+.input-shift-placeholder:focus::-moz-placeholder          {line-height: 100px; transition: line-height 0.5s ease;}
+.input-shift-placeholder:focus:-moz-placeholder           {line-height: 100px; transition: line-height 0.5s ease;}
+.input-shift-placeholder:focus:-ms-input-placeholder      {line-height: 100px; transition: line-height 0.5s ease;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+@media screen and (max-width: 735px){
+
+
+
+    .logo{
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
+    .container-search{
+        float: none;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 250px;
+    }
+
+    .phone, .shopping-kart{
+        display: none;
+    }
+
+    .authorization{
+        width: 155px;
+        margin: 0 auto;
+    }
+
+    .header-sub-menu .nav-handbags, .header-sub-menu .nav-backpacks, .header-sub-menu .nav-accessories{
+        display: none;
+    }
+
+    .sub-menu-more .max-width750{
+        display: block;
+    }
+
+    .header-sub-menu > li{
+        width: 25%;
+    }
+
+    .sub-menu-more{
+        width: 100%;
+    }
+
+    .assistant-main > .fieldset:first-child{
+        width: 100%;
+    }
+
+    .assistant-main > .fieldset{
+        width: 102%;
+    }
+
+    .assistant .pick-up{
+        width: 100%;
+    }
+
+    .assistant .assistant-footer{
+        position: inherit;
+        width: 100%;
+        height: inherit;
+        border-radius: inherit;
+        background-position: -2px -13px;
+        background-repeat: repeat-x;
+    }
+
+    .main-scooch{
+        margin-top: 675px;
+    }
+
+
+    .sub-menu-form .suitcase, .sub-menu-form .col-md-offset-2{
+        display: none;
+    }
+
+    .sub-menu-form{
+        min-height: 475px;
+    }
+
+    .sub-menu-left-container{
+        width: 50%;
+    }
+
+    .sub-menu-middle-container{
+        width: 50%;
+    }
+
+    .sub-menu-middle-container .col-md-4{
+        clear: both;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .sub-menu-form .row a{
+        font-size: 15px;
+    }
+
+    .main {
+        margin-top: 36em;
+    }
+
+    .container-brands-slider {
+        margin-top: 15px;
+    }
+
+
+    .modal-content{
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

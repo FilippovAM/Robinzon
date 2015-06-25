@@ -1,0 +1,187 @@
+@media screen and (max-width: 992px){
+
+    .header-main{
+        width: 100%;
+    }
+
+    .main-scooch{
+        margin-top: 250px;
+    }
+
+    .main{
+        margin-top: 35em;
+    }
+
+    .description-container-background-slider{
+        position: inherit;
+        margin: 0 auto;
+    }
+
+    .m-scooch-round{
+        position: relative;
+    }
+
+    .m-scooch-controls a.lg.prev{
+        left: 5%
+    }
+
+    .m-scooch-controls a.lg.next {
+        right: 5%;
+    }
+
+    .header-sub-menu .nav-business, .header-sub-menu .nav-children, .header-sub-menu .nav-brands, .header-sub-menu .nav-blog{
+        display: none;
+    }
+
+    .header-sub-menu .nav-more{
+        display: block;
+    }
+
+    .header-sub-menu > li{
+        width: 15%;
+    }
+
+    .header-sub-menu .nav-more{
+        width: 100%;
+    }
+
+    .header-sub-menu .nav-suitcases .sub-menu-form:after{
+        left: 7%;
+    }/*Положение стрелки(треугольника), у выпадающего меню */
+
+    .header-sub-menu .nav-handbags .sub-menu-form:after{
+        left: 22%;
+    }
+
+    .header-sub-menu .nav-backpacks .sub-menu-form:after{
+        left: 37%;
+    }
+
+    .header-sub-menu .nav-accessories .sub-menu-form:after{
+        left: 51.7%;
+    }
+
+    .header-sub-menu .nav-more .sub-menu-more:after{
+        left: 21.5%;
+    }
+
+    .sub-menu-form{
+        min-height: 190px;;
+    }
+
+    .sub-menu-left-container{
+        width: 30%;
+    }
+
+    .sub-menu-middle-container{
+        width: 70%;
+    }
+
+    .sub-menu-middle-container .col-md-4{
+        width: 33.3%;
+        float: left;
+    }
+
+    .sub-menu-right-container{
+        display: none;
+    }
+
+
+
+    .assistant{
+        width: 100%;
+    }
+
+    .assistant-main{
+        padding: 25px;
+    }
+
+    .assistant-main > .fieldset{
+        width: 31%;
+        float: left;
+    }
+
+    .assistant-main > .fieldset:first-child{
+        margin-right: 3em;
+    }
+
+    .assistant-main > .fieldset .row .col-md-6{
+        width: 50%;
+        float: left;
+    }
+
+    .assistant .small-monitor{
+        display: block;
+        width: 45px;
+
+    }
+
+    .assistant-tittle, .form-group-margin{
+        margin-bottom: 15px !important;
+    }
+
+
+
+
+    .assistant .big-monitor{
+        display: none;
+    }
+
+    .pick-up .site-button{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .assistant-footer{
+        position: absolute;
+        width: 30%;
+        cursor: pointer;
+        height: 35px;
+        border-radius: 5px;
+        bottom: 24px;
+        left: 24px;
+        background-position: -2px -15px;
+    }
+
+    .pick-up{
+        width: 30%;
+        float: right;
+    }
+
+    .assistant-footer:active{
+        background-color: rgb(67, 72, 171);
+    }
+
+
+
+
+
+
+    .range-price{
+        display: block;
+    }
+
+     .m-scooch-wrapper .m-scooch-inner .m-item{
+
+
+    }
+
+     .m-scooch-wrapper{
+
+     }
+
+     .background-cover{
+
+     }
+
+     .m-scooch{
+
+     }
+
+
+
+
+
+
+
+}

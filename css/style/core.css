@@ -1,0 +1,190 @@
+/* Core styles
+-----------------------------------------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic);
+
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, main, nav, section, summary {
+  display: block;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html, body {
+  height: 100%;
+  min-width: 320px;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+strong {
+  font-weight: 700;
+}
+
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 13px;
+  line-height: 1.42857143;
+  font-weight: 400;
+  color: #000000;
+}
+
+a{
+  color: #182082;
+  text-decoration: none;
+  -webkit-transition: color ease-in-out .15s, border-color ease-in-out .15s, background-color ease-in-out .15s;
+  -o-transition: color ease-in-out .15s, border-color ease-in-out .15s, background-color ease-in-out .15s;
+  transition: color ease-in-out .15s, border-color ease-in-out .15s, background-color ease-in-out .15s;
+
+}
+
+a:hover, a:focus{
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.section {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Clear float */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+
+.wrapper {
+  background-color: #eaeaea;
+}
+
+.text-middle {
+  vertical-align: middle;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;
+    margin:0;}
+
+/*״נטפעû*/
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?74700539');
+  src: url('../font/fontello.eot?74700539#iefix') format('embedded-opentype'),
+  url('../font/fontello.woff?74700539') format('woff'),
+  url('../font/fontello.ttf?74700539') format('truetype'),
+  url('../font/fontello.svg?74700539#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #182082;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-facebook:before { content: '\e800'; } /* '?' */
+.icon-twitter:before { content: '\e801'; } /* '?' */
+.icon-vkontakte-rect:before { content: '\e802'; } /* '?' */
+.icon-youtube-play:before { content: '\e803'; } /* '?' */
+
+
+
+
+
+

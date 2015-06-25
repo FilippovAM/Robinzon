@@ -1,0 +1,29 @@
+@media screen and (max-width: 852px){
+
+    .container-search{
+        width: 35%;
+    }
+
+    .background-slider-button-margin{
+        margin-left: 68%;
+    }
+
+    .background-slider-navs{
+        right: -89%;
+    }
+
+    .footer .row .col-md-3{
+        display: inline-block;
+        margin-left: 3%;
+        margin-bottom: 5%;
+        vertical-align: text-top;
+    }
+
+    .footer .row{
+        text-align: center;
+    }
+
+
+
+
+}

@@ -1,0 +1,42 @@
+@media screen and (max-width: 630px) {
+
+    .background-slider-title, .background-slider-text, .background-slider-button-margin, .background-slider-navs, .background-slider .flex-direction-nav a.flex-next, .background-slider .flex-direction-nav a.flex-prev{
+
+    }
+
+
+
+
+
+
+
+    .logo{
+        margin-bottom: 2%;
+    }
+
+
+
+    .footer .row{
+        text-align: center;
+    }
+
+    .footer .row .col-md-3{
+        display: inline-block;
+        margin-left: 3%;
+        margin-bottom: 5%;
+        vertical-align: text-top;
+    }
+
+    .footer .row .col-md-3:first-child{
+        margin-left: 0;
+    }
+
+
+
+
+
+
+
+
+
+}

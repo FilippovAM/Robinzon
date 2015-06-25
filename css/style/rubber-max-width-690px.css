@@ -1,0 +1,34 @@
+@media screen and (max-width: 680px){
+
+    .preheader .header-top-contacts{
+        display: block;
+    }
+
+    .preheader .nav li{
+        display: none;
+    }
+
+    .preheader .nav:first-child{
+        float: none;
+        width: 95px;
+        margin: 0 auto;
+    }
+
+
+    .preheader .nav.pull-left > li:first-child{
+        margin: 0;
+    }
+
+    .preheader .nav:first-child li:first-child{
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+}
