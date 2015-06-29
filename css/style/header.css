@@ -879,11 +879,11 @@ input[type="image"]{
 .assistant .col-md-6 label:before{
     content: "";
     padding: 2px 12px;
-    background: no-repeat url('../../img/upload/checkbox-1.png') 0 0;
+    background: no-repeat url('../../img/upload/checkbox-sprite.png') 0 0;
 }
 
 .assistant input[type="checkbox"]:checked + label:before{
-    background: no-repeat url('../../img/upload/checkbox-2.png') 0 0;
+    background: no-repeat url('../../img/upload/checkbox-sprite.png') 0px -28px;
 }
 
 .pick-up{
