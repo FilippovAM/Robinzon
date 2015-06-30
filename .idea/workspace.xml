@@ -2,32 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="176ff2a2-2d62-418e-a343-5a7e3da24e57" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Robinzon\css\ion.rangeSlider\ion.rangeSlider.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\ion.rangeSlider\ion.rangeSlider.skinHTML5.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\ion.rangeSlider\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\scooch\scooch-style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\scooch\scooch.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\bootstrap-style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\footer.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\header.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\main.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber-max-width-1050px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber-max-width-1150px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber-max-width-410.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber-max-width-556.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber-max-width-690px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber-max-width-735px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber-max-width-852px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber-max-width-992px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber_max-width-1000px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber_max-width-1240px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber_max-width-630px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\css\style\rubber_min-width-991px.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\js\calling-functions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\js\jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Robinzon\js\scooch.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Robinzon.iws" />
@@ -49,17 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.01901566">
-              <caret line="1" column="180" selection-start-line="1" selection-start-column="180" selection-end-line="1" selection-end-column="180" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -113,8 +77,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-420" />
-    <option name="y" value="21" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -141,6 +105,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,7 +158,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -217,7 +181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-420" y="21" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -263,6 +227,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style/rubber.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="645" column="0" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -287,18 +275,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.11967779">
+          <caret line="1" column="41091" selection-start-line="1" selection-start-column="41091" selection-end-line="1" selection-end-column="41091" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.01901566">
-          <caret line="1" column="180" selection-start-line="1" selection-start-column="180" selection-end-line="1" selection-end-column="180" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
         </state>
       </provider>
