@@ -1,31 +1,7 @@
 @import "bootstrap/css/bootstrap.min.css";
-@import "style/bootstrap-style.css";
-
-@import "ion.rangeSlider/normalize.css";
-@import "ion.rangeSlider/ion.rangeSlider.css";
-@import "ion.rangeSlider/ion.rangeSlider.skinHTML5.css";
-
-@import "scooch/scooch.css";
-@import "scooch/scooch-style.css";
-
+@import "style/output.min.css";
 @import "style/core.css";
-@import "style/header.css";
-@import "style/main.css";
-@import "style/footer.css";
-@import "style/rubber_min-width-991px.css";
-@import "style/rubber_max-width-1240px.css";
-@import "style/rubber-max-width-1150px.css";
-@import "style/rubber-max-width-1050px.css";
-@import "style/rubber_max-width-1000px.css";
-@import "style/rubber-max-width-992px.css";
-@import "style/rubber-max-width-852px.css";
-@import "style/rubber-max-width-735px.css";
-@import "style/rubber-max-width-690px.css";
-@import "style/rubber_max-width-630px.css";
-@import "style/rubber-max-width-556.css";
-@import "style/rubber-max-width-410.css";
-
-
+@import "style/rubber.css";
 
 
 input{
