@@ -1,59 +1,22 @@
-@import "bootstrap/css/bootstrap.min.css";
-@import "style/output.min.css";
-@import "style/core.css";
-@import "style/rubber.css";
-
-
-input{
-  border: 1px solid #c6c6c6;
-}
-
-.nav > li {
-  float: left;
-/*  margin-left: 30px; */
-  font-size: 13px;
-}
-
-.nav > li:first-child {
-  margin-left: 0;
-}
-
-.nav-icon {
-  margin-top: -1px;
-}
-
-input[type="button"]:active{
-  background-color: #ff5103;
-}
-
-input[type="number"]{
-  -moz-appearance:textfield;
-}
-
-/* плавное изменение прозрачности  placeholder-а при фокусе, */
-.input-change-opacity::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
-.input-change-opacity::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
-.input-change-opacity:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
-.input-change-opacity:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
-.input-change-opacity:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
-.input-change-opacity:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
-.input-change-opacity:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
-.input-change-opacity:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
-
-/* сдвиг placeholder-а вниз при фокусе*/
-.input-shift-placeholder::-webkit-input-placeholder       {line-height: 20px;  transition: line-height 0.5s ease;}
-.input-shift-placeholder::-moz-placeholder                {line-height: 20px;  transition: line-height 0.5s ease;}
-.input-shift-placeholder:-moz-placeholder                 {line-height: 20px;  transition: line-height 0.5s ease;}
-.input-shift-placeholder:-ms-input-placeholder            {line-height: 20px;  transition: line-height 0.5s ease;}
-.input-shift-placeholder:focus::-webkit-input-placeholder {line-height: 100px; transition: line-height 0.5s ease;}
-.input-shift-placeholder:focus::-moz-placeholder          {line-height: 100px; transition: line-height 0.5s ease;}
-.input-shift-placeholder:focus:-moz-placeholder           {line-height: 100px; transition: line-height 0.5s ease;}
-.input-shift-placeholder:focus:-ms-input-placeholder      {line-height: 100px; transition: line-height 0.5s ease;}
-
-
-
-
-
-
-
-
+@import "bootstrap/css/bootstrap.min.css";@import "style/output.min.css";@import "style/core.css";@import "style/rubber.css";input{border:1px solid #c6c6c6;}
+.nav > li{float:left;font-size:13px;}
+.nav > li:first-child{margin-left:0;}
+.nav-icon{margin-top:-1px;}
+input[type="button"]:active{background-color:#ff5103;}
+input[type="number"]{-moz-appearance:textfield;}
+.input-change-opacity::-webkit-input-placeholder{opacity:1;transition:opacity 0.3s ease;}
+.input-change-opacity::-moz-placeholder{opacity:1;transition:opacity 0.3s ease;}
+.input-change-opacity:-moz-placeholder{opacity:1;transition:opacity 0.3s ease;}
+.input-change-opacity:-ms-input-placeholder{opacity:1;transition:opacity 0.3s ease;}
+.input-change-opacity:focus::-webkit-input-placeholder{opacity:0;transition:opacity 0.3s ease;}
+.input-change-opacity:focus::-moz-placeholder{opacity:0;transition:opacity 0.3s ease;}
+.input-change-opacity:focus:-moz-placeholder{opacity:0;transition:opacity 0.3s ease;}
+.input-change-opacity:focus:-ms-input-placeholder{opacity:0;transition:opacity 0.3s ease;}
+.input-shift-placeholder::-webkit-input-placeholder{line-height:20px;transition:line-height 0.5s ease;}
+.input-shift-placeholder::-moz-placeholder{line-height:20px;transition:line-height 0.5s ease;}
+.input-shift-placeholder:-moz-placeholder{line-height:20px;transition:line-height 0.5s ease;}
+.input-shift-placeholder:-ms-input-placeholder{line-height:20px;transition:line-height 0.5s ease;}
+.input-shift-placeholder:focus::-webkit-input-placeholder{line-height:100px;transition:line-height 0.5s ease;}
+.input-shift-placeholder:focus::-moz-placeholder{line-height:100px;transition:line-height 0.5s ease;}
+.input-shift-placeholder:focus:-moz-placeholder{line-height:100px;transition:line-height 0.5s ease;}
+.input-shift-placeholder:focus:-ms-input-placeholder{line-height:100px;transition:line-height 0.5s ease;}
